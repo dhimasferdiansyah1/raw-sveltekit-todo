@@ -3,11 +3,16 @@
 	import { goto } from '$app/navigation';
 </script>
 
+<svelte:head>
+	<title>Svelte Todo | Add</title>
+	<meta name="description" content="Svelte todo by dhimas ferdiansyah" />
+</svelte:head>
+
 <div class="h-screen bg-[#FBFBFB]">
 	<div class="container mx-auto max-w-3xl px-4 py-32">
 		<div class="flex flex-col border border-gray-300">
-			<div class="flex rounded-t-lg bg-gray-100 px-4 py-2">
-				<h1 class="text-gray-500">Add a new todo</h1>
+			<div class="flex rounded-t-lg bg-gray-200 px-4 py-2">
+				<h1 class="text-gray-700">Add a new todo</h1>
 			</div>
 			<div class="flex bg-white p-4">
 				<form
@@ -28,7 +33,7 @@
 						required
 						placeholder="Enter the title of the todo"
 					/>
-					<button type="submit" class="mt-4 bg-blue-500 px-4 py-2 text-white hover:brightness-110"
+					<button type="submit" class="mt-4 bg-blue-700 px-4 py-2 text-white hover:brightness-110"
 						>Save</button
 					>
 				</form>

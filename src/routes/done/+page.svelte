@@ -9,25 +9,25 @@
 </script>
 
 <svelte:head>
-	<title>Svelte Todo</title>
+	<title>Svelte Todo | Done</title>
 	<meta name="description" content="Svelte todo by dhimas ferdiansyah" />
 </svelte:head>
 
 <div class="min-h-screen bg-[#FBFBFB]">
 	<div class="container mx-auto max-w-3xl px-4 py-32">
 		<table class="min-w-full border border-gray-300 bg-white">
-			<thead class="bg-gray-100">
+			<thead class="bg-gray-200">
 				<tr>
 					<th
-						class="w-1/2 px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
+						class="w-1/2 px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-700"
 						>Task</th
 					>
 					<th
-						class="w-1/4 px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
+						class="w-1/4 px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-700"
 						>Status</th
 					>
 					<th
-						class="w-1/4 px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
+						class="w-1/4 px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-700"
 						>Actions</th
 					>
 				</tr>
