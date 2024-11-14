@@ -1,6 +1,7 @@
 import prisma from '$lib/prisma';
+import type { PageServerLoad } from './$types.js';
 
-export const load = async ({ params }) => {
+export const load: PageServerLoad = async ({ params }) => {
 	const todo = await prisma.todo.findUnique({
 		where: {
 			id: params.id
