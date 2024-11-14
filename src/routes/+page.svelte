@@ -4,7 +4,6 @@
 	import MoreHorizontal from 'lucide-svelte/icons/pencil-line';
 	import type { PageData } from './$types';
 	import { enhance } from '$app/forms';
-
 	export let data: PageData;
 </script>
 
